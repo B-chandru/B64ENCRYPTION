@@ -14,9 +14,12 @@
         "48":"images/icon48.png",
         "16":"images/icon16.png"
     },
-    "default_popup":"popup.html",
-    "default_title":"used to encrypt your password,"
+    "default_popup":"index.html",
+    "default_title":"used to encrypt your password"
 },
+"permissions": [
+    "activeTab"
+  ],
 "content_scripts":[
     {"matches":["<all_urls>"],
     "js":["design.js"]}
