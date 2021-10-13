@@ -4,11 +4,6 @@
     --color3:hsl(0, 0%, 0%);
 
 }
-
-title{
-    font-weight: bolder;
-    color:var(--color1)
-}
 *{
     font-family: system-ui;
     background-color: hsl(225, 89%, 11%);
@@ -17,6 +12,14 @@ title{
     color: hsl(224, 84%, 59%);
 
 }
+
+title{
+    font-weight: bolder;
+    color:var(--color1);
+    font-size: 19px;
+
+}
+
 h1{
     color: var(--color2);
 }
@@ -24,6 +27,7 @@ input[type="text"]{
     cursor: pointer;
     margin-bottom: 5px;
     outline: none;
+    width: 250px;
     padding: 10px;
     border: none;
     color:var(--color2);
@@ -36,16 +40,20 @@ input[type="text"]{
 }
 p{
     border: 2px solid var(--color1);
-    padding: 4px;
+    width: 74px;
+    padding: 6px;
     border-radius: 5px;
     display: none;
+    text-align: center;
     color: var(--color1);
     font-weight: bolder;
 }
 button{
     outline: none;
     border: none;
-    padding: 3px;
+    width: 74px;
+    padding: 6px;
+    font-size: 16px;
     box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.3);
     background: var(--color1);
     color: var(--color3);
@@ -57,12 +65,14 @@ button:hover{
 
 #span{
     color:var(--color1);
-    
+    font-size: 21px;
 }
 #bottom{
     display: none;
     font-weight: bolder;
-
+   font-size: 22px;
+   text-align: center;
+   border-bottom: 2px solid hsl(123deg 21% 44%);
 }
 span{
     color: var(--color2);
